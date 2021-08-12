@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/ic_group"
+            android:title="Departments" />
+        <item
+            android:id="@+id/nav_budget"
+            android:icon="@drawable/ic_money"
+            android:title="Budget" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_mail"
+            android:title="Requests" />
+    </group>
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_sign"
+                android:icon="@drawable/ic_sign"
+                android:title="Add Signature" />
+            <item
+                android:id="@+id/nav_track"
+                android:icon="@drawable/ic_track"
+                android:title="Request Tracker" />
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/ic_http"
+                android:title="Web View" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TUPTR</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_title">TUP-Taguig Traceability Of Request</string>
+    <string name="app_email">Email Address</string>
+    <string name="app_pass">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="app_dept">Department</string>
+    <string name="app_login">Login</string>
+    <string name="app_register">REGISTER</string>
+    <string name="app_position">Position</string>
+    <string name="app_confirm">Confirm Password</string>
+    <string name="app_course">Course</string>
+</resources>
